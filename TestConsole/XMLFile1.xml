@@ -1,0 +1,50 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateResponse
+  xmlns="http://ws.lhotka.net/WcfDataPortal">
+      <UpdateResult xmlns:a="http://schemas.datacontract.org/2004/07/Csla.Server.Hosts.Silverlight"
+                    xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:ErrorData>
+          <a:ExceptionTypeName>Csla.DataPortalException</a:ExceptionTypeName>
+          <a:InnerError>
+            <a:ExceptionTypeName>Csla.Reflection.CallMethodException</a:ExceptionTypeName>
+            <a:InnerError>
+              <a:ExceptionTypeName>Ledgers.Data.Interfaces.Exception.ImportException</a:ExceptionTypeName>
+              <a:InnerError i:nil="true"/>
+              <a:Message>Batch 5 can not be saved. Transaction date is outside period.</a:Message>
+              <a:Source>Ledgers.Core</a:Source>
+              <a:StackTrace>
+                at Ledgers.Core.ServerExceptionInspector.InspectException(Type objectType, Object businessObject, Object criteria, String methodName, Exception ex) in c:\Projects\Ledgers\Source\Ledgers\Ledgers.Core.Server\ServerExceptionInspector.cs:line 29&#xD;
+                at Csla.Server.DataPortalExceptionHandler.CallExceptionInspector(Type objectType, Object businessObject, Object criteria, String methodName, Exception exception, Exception&amp; handledException)
+              </a:StackTrace>
+              <a:TargetSiteName>InspectException</a:TargetSiteName>
+            </a:InnerError>
+            <a:Message>DataPortal.Update method call failed</a:Message>
+            <a:Source i:nil="true"/>
+            <a:StackTrace>
+              at Ledgers.Core.ServerExceptionInspector.InspectException(Type objectType, Object businessObject, Object criteria, String methodName, Exception ex) in c:\Projects\Ledgers\Source\Ledgers\Ledgers.Core.Server\ServerExceptionInspector.cs:line 29&#xD;
+              at Csla.Server.DataPortalExceptionHandler.CallExceptionInspector(Type objectType, Object businessObject, Object criteria, String methodName, Exception exception, Exception&amp; handledException)&#xD;
+            </a:StackTrace>
+            <a:TargetSiteName i:nil="true"/>
+          </a:InnerError>
+          <a:Message>
+            DataPortal.Update failed (Ledgers.Data.Interfaces.Exception.ImportException: Batch 5 can not be saved. Transaction date is outside period.&#xD;
+            at Ledgers.Core.ServerExceptionInspector.InspectException(Type objectType, Object businessObject, Object criteria, String methodName, Exception ex) in c:\Projects\Ledgers\Source\Ledgers\Ledgers.Core.Server\ServerExceptionInspector.cs:line 29&#xD;
+            at Csla.Server.DataPortalExceptionHandler.CallExceptionInspector(Type objectType, Object businessObject, Object criteria, String methodName, Exception exception, Exception&amp; handledException))
+          </a:Message>
+          <a:Source>Ledgers.Core</a:Source>
+          <a:StackTrace>
+            at Ledgers.Core.ServerExceptionInspector.InspectException(Type objectType, Object businessObject, Object criteria, String methodName, Exception ex) in c:\Projects\Ledgers\Source\Ledgers\Ledgers.Core.Server\ServerExceptionInspector.cs:line 29&#xD;
+            at Csla.Server.DataPortalExceptionHandler.CallExceptionInspector(Type objectType, Object businessObject, Object criteria, String methodName, Exception exception, Exception&amp; handledException)&#xD;
+            &#xD;
+            at Ledgers.Core.ServerExceptionInspector.InspectException(Type objectType, Object businessObject, Object criteria, String methodName, Exception ex) in c:\Projects\Ledgers\Source\Ledgers\Ledgers.Core.Server\ServerExceptionInspector.cs:line 29&#xD;
+            at Csla.Server.DataPortalExceptionHandler.CallExceptionInspector(Type objectType, Object businessObject, Object criteria, String methodName, Exception exception, Exception&amp; handledException)
+          </a:StackTrace>
+          <a:TargetSiteName>InspectException</a:TargetSiteName>
+        </a:ErrorData>
+        <a:GlobalContext>AQAAAAEAAAAXc0NzbGEuU2VyaWFsaXphdGlvbi5Nb2JpbGUuTnVsbFBsYWNlaG9sZGVyLCBDc2xhLCBWZXJzaW9uPTQuMy4xMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTkzYmU1ZmRjMDkzZTRjMzAAAAAAAAAAAAAAAAA=</a:GlobalContext>
+        <a:ObjectData>AQAAAAEAAAAXc0NzbGEuU2VyaWFsaXphdGlvbi5Nb2JpbGUuTnVsbFBsYWNlaG9sZGVyLCBDc2xhLCBWZXJzaW9uPTQuMy4xMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTkzYmU1ZmRjMDkzZTRjMzAAAAAAAAAAAAAAAAA=</a:ObjectData>
+      </UpdateResult>
+    </UpdateResponse>
+  </s:Body>
+</s:Envelope>
