@@ -4,3 +4,6 @@ D:\VSWS\TestConsole\TestConsole\bin\Debug\TestConsole.pdb
 D:\VSWS\TestConsole\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
 D:\VSWS\TestConsole\TestConsole\obj\Debug\TestConsole.exe
 D:\VSWS\TestConsole\TestConsole\obj\Debug\TestConsole.pdb
+D:\Code-Games\Test\TestConsole\bin\Debug\TestConsole.exe.config
+D:\Code-Games\Test\TestConsole\obj\Debug\TestConsole.exe
+D:\Code-Games\Test\TestConsole\obj\Debug\TestConsole.pdb
