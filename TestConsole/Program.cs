@@ -28,7 +28,7 @@ namespace TestConsole
 
         public static string SplitInParts2(string str, int partLength)
         {
-            //comment next
+            //comment next ckeck
             System.Collections.Generic.IList<string> list = new System.Collections.Generic.List<string>();
             int stringLength = str.Length;
             string s = string.Empty;
