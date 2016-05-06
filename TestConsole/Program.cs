@@ -13,7 +13,7 @@ namespace TestConsole
         {
             Stopwatch sw = new Stopwatch();
 			//A test Comment
-			var leChangelele = true;
+			var leChangelele = true; 
             sw.Start();
             var ff = SplitInParts2("The quick brown fox jumps over the little lazy dog", 11);
             sw.Stop();
