@@ -95,7 +95,7 @@ namespace TestConsole
             [DescriptionAttribute("United Kingdom")]
             UK = 6,
             [DescriptionAttribute("United States of America")]
-            US = 7
+   //deepa         US = 7
         }
     }
 }
